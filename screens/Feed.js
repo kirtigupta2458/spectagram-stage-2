@@ -16,18 +16,16 @@ import { FlatList } from "react-native-gesture-handler";
 let posts = require("./temp_posts.json");
 
 export default class Feed extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-
-    componentDidMount() { }
-
-    renderItem = ({ item: post }) => {
-        return <PostCard post={post} />;
-    };
-
-    keyExtractor = (item, index) => index.toString();
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     render() {
         return (
